@@ -14,6 +14,7 @@ import OrdersPage from './pages/Admin/view-order/vieworder';
 import ContactUsPage from './pages/contact/contact';
 import ViewMessagesPage from './pages/Admin/contact/contact';
 import OrderDetailsPage from './pages/Dashboard/dashboard';
+import AdminLogin from './pages/Admin/login/admin_;ogin';
 
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/promotions" element={<PromotionsPage />} />
         <Route path="/menu" element={<MenuPage />} />
+        <Route path="/admin_login" element={<AdminLogin />} />
+
         <Route path="/admin-dashboard" element={<AdminDashboard />} />
         <Route path="/admin/users" element={<AdminUsersPage />} />
         <Route path="/admin/add-menu" element={<AddMenu />} />

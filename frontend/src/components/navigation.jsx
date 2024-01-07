@@ -14,7 +14,7 @@ const NavigationBar = () => {
       <li><Link to="/">HOME</Link></li>
       <li><Link to="/promotions">PROMOTIONS</Link></li>
       <li><Link to="/menu">MENU</Link></li>
-      <li><Link to="/admin/add-users">ADMIN</Link></li>
+      <li><Link to="/admin_login">ADMIN</Link></li>
       <li className="cart-link">
         <Link to="/cart">
         <FontAwesomeIcon icon={faShoppingCart} /> {}
